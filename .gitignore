@@ -1,0 +1,7 @@
+*.pkl
+*.model
+*.png
+*.tsv
+*.id2word
+*.npy
+*.state

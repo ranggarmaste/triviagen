@@ -1,0 +1,25 @@
+0	War
+1	Species
+2	Non-English
+3	Non-English
+4	Art (Museum, Painting, Artist)
+5	Politics
+6	Sports
+7	Movies
+8	Music
+9	Series/Show
+10	Famous Places
+11	Politics
+12	Education
+13	Non-English
+14	Companies
+15	Non-English
+16	Sports
+17	Cities
+18	Radio/TV Channels
+19	Species
+20	Kingdoms
+21	Vehicles
+22	Science & Engineering
+23	Movies
+24	Famous Places

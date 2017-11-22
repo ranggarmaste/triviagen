@@ -74,3 +74,18 @@ for article in data['Content']:
     topics.append(topics_to_categories(get_article_topic(article)))
 
 #%%
+    
+for i in range(len(topics)):
+    for j in range(len(topics[0])):
+        topics[i][j] = topics[i][j].replace('\n', '')
+
+count = 0
+count_3 = 0
+categories_true = data.iloc[:, 3]
+for i in range(len(topics)):
+    if categories_true[i].replace(' ', '') == topics[i][0]:
+        count += 1
+    else:
+        print(len(topics[i][0]), len(categories_true[i]))
+    if categories_true[i].replace(' ', '') in topics[i]:
+        count_3 += 1

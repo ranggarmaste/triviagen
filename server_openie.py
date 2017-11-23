@@ -30,5 +30,6 @@ def process_article():
         splits[i] = [splits[i][0], relation, splits[i][len(splits[i])-1]]
 
     resp = {}
+    resp['title'] = data['title']
     resp['openie_relations'] = splits
     return json.dumps(resp)

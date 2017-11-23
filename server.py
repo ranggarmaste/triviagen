@@ -106,7 +106,7 @@ def hello_world():
     return "hello, world!"
 
 @app.route('/article', methods=['POST'])
-def hello_world():
+def process_article():
     data = json.loads(request.data)
 
     resp = {}

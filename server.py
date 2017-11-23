@@ -101,6 +101,10 @@ from flask import Flask
 from flask import request
 app = Flask(__name__)
 
+@app.route('/article', methods=['GET'])
+def hello_world():
+    return "hello, world!"
+
 @app.route('/article', methods=['POST'])
 def hello_world():
     data = json.loads(request.data)

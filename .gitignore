@@ -8,3 +8,4 @@
 OpenIE-standalone/
 __pycache__/
 MITIE/
+.ipynb_checkpoints/
